@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+}
+header{
+     background-color: rgb(57, 57, 235);
+     height: 10vh;
+     display: flex;
+     align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2px;
+}
+.logo img{
+    display: flex;
+    padding: 0 39px;
+    height: 25px;
+}
+.search input{
+    width: 31vw;
+    height: 4vh;
+    padding: 0px 0px 0px 4px;
+    border-radius: 5px;
+    margin: 0px 6px 0px 17px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 12px;
+}
+header nav ul{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+header nav ul li a{
+    color: white;
+    text-decoration:none ;
+}
+header nav ul li a:hover{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.slider img{
+    height: 30vh;
+    width: 90vw;
+}
+.text-center{
+    background-color: aqua;
+    color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:80vh;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    padding: 0px 5px 5px 140px;
+}
+.content img{
+    width: 12vw;
+    height: 8vw;
+    padding: 2px 14px;
+}
+.content img:hover{
+    background-color:rgb(30, 30, 124);
+}
+h2{
+    padding: 10px 150px;
+    text-decoration: underline;
+}
